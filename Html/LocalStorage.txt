@@ -1,0 +1,2 @@
+https://mdn.github.io/dom-examples/web-storage/
+https://github.com/mdn/dom-examples/blob/main/web-storage/main.js

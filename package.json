@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "html-element": "^2.3.1",
+    "node-fetch": "^2.7.0",
+    "xhr2": "^0.2.1"
+  }
+}
