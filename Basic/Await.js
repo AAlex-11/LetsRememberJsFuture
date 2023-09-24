@@ -36,7 +36,24 @@ const aThenable = {
     console.log(2, await Promise.resolve(aThenable))// A promise fulfilled with 42
 })();
 
-//--- (3) see more in Promise/Await 
+
+//--- (6) foreach https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+console.log(`
+--- (3) ---`)
+
+const ratings = [5, 4, 5];
+let sum = 0;
+
+const sumFunction = async (a, b) => a + b;
+
+ratings.forEach(async (rating) => {
+  sum = await sumFunction(sum, rating);
+});
+
+console.log(sum);
+
+
+//--- (4) see more in Promise/Await 
 
 
 

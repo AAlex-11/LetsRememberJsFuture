@@ -78,7 +78,7 @@ console.log(gen().next());
 //--- (8)
 console.log(`
 --- (8) ---`)
-
+let a,b,c;
 [a, b, c] = new Set(["a", "b", "c"]);
 console.log(a);
 
